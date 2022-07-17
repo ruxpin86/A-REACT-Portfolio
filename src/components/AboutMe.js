@@ -6,7 +6,7 @@ export default function AboutMe() {
     <>
       <br></br>
       <main>
-        <h2>Ted Glynn</h2>
+        <h2>A little about me...</h2>
         <section>
           <img src={Image} />
           <div>

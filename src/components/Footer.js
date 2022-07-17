@@ -1,5 +1,12 @@
 import React from "react";
+import { Github } from "@emotion-icons/bootstrap/Github";
 
 export default function footer() {
-  return <div>footer</div>;
+  return (
+    <>
+      <footer>
+        <Github size="30" />
+      </footer>
+    </>
+  );
 }
