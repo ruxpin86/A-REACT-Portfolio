@@ -9,6 +9,14 @@ const data = [
     demo_link: "https://almost-faim-ous.herokuapp.com/",
     img: aimImage,
   },
+  {
+    title: "Code Team ASSEMBLE",
+    description:
+      "Need to dynamically generate a snapshot view of your staff as a manager? Well in this I made a CLI to quickly generate a page where you can get a succinct and organized view of your current staff with the ability to dynamically generate links to each persons contact information.",
+    github_link: "https://github.com/ruxpin86/code-team-ASSEMBLE",
+    demo_link: "https://almost-faim-ous.herokuapp.com/",
+    img: aimImage,
+  },
 ];
 
 const PortfolioItem = (props) => {
