@@ -17,6 +17,9 @@ a{
     color: inherit;
     text-decoration: none;
     width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: .5s;
 }
 
 a:hover {
@@ -106,6 +109,10 @@ footer{
     bottom: 0;
     width: 100%;
     background-color: var(--background3);
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .icon{
