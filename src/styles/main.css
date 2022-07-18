@@ -111,8 +111,8 @@ footer{
     background-color: var(--background3);
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
 }
 
 .icon{

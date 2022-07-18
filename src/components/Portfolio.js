@@ -1,5 +1,8 @@
 import React from "react";
 import aimImage from "./images/almost-faimous.png";
+import eventListerImg from "./images/event-listener-main.png";
+import codeTeam from "./images/code-team.png";
+import { Github } from "@emotion-icons/bootstrap/Github";
 const data = [
   {
     title: "Almost Faimous",
@@ -15,15 +18,15 @@ const data = [
       "Need to dynamically generate a snapshot view of your staff as a manager? Well in this I made a CLI to quickly generate a page where you can get a succinct and organized view of your current staff with the ability to dynamically generate links to each persons contact information.",
     github_link: "https://github.com/ruxpin86/code-team-ASSEMBLE",
     demo_link: "https://almost-faim-ous.herokuapp.com/",
-    img: aimImage,
+    img: codeTeam,
   },
   {
     title: "DU Event Listeners",
     description:
-      "Need to dynamically generate a snapshot view of your staff as a manager? Well in this I made a CLI to quickly generate a page where you can get a succinct and organized view of your current staff with the ability to dynamically generate links to each persons contact information.",
-    github_link: "https://github.com/ruxpin86/code-team-ASSEMBLE",
+      "As a final send off project for boot camp our team decided to create a place for our cohort to connect and collaborate even after all the bootcamp resources dry up. It is our hope that this will be shared with past and future cohorts so that people can: meet, share events, generate forum topics, share resources, and even chat live with other students and alumni. We believe this is not only a great project to exercise and display what we have learned over the past three months, but also a great oppurtunity to give back to those who endeavor to better themselves by learning to code!",
+    github_link: "https://github.com/ruxpin86/DU-Event-Listeners",
     demo_link: "https://almost-faim-ous.herokuapp.com/",
-    img: aimImage,
+    img: eventListerImg,
   },
 ];
 
@@ -35,7 +38,9 @@ const PortfolioItem = (props) => {
         <div className="portfolio-text">
           <h3>{title}</h3>
           <p>{description}</p>
-          <a href={github_link}>GitHub</a>
+          <a href={github_link}>
+            <Github size={35} />
+          </a>
           <a href={demo_link}>Demo</a>
         </div>
         <img className="faimous" src={img} />
