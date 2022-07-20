@@ -93,7 +93,7 @@ p{
     color: var(--text);
 }
 
-form{
+.contactEl{
     display: flex;
     flex-direction: column;
     margin: 10rem;
@@ -124,8 +124,9 @@ footer{
 }
 .portfolio-item{
     border: solid 1px cornsilk;
-    padding: 1rem;
+    padding: 1rem;;
     margin: 1rem;
+    margin-bottom: 50px;
     background-color: var(--background3);
 }
 
@@ -142,4 +143,16 @@ footer{
 
 .portfolio-text a{
     width: max-content;
+}
+
+.submit{
+    transition: .3s;
+}
+
+.submit:hover{
+    background-color: var(--background3);
+}
+
+.resume{
+    color: var(--text);
 }

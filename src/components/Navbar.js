@@ -18,6 +18,9 @@ export default function navbar(props) {
         <NavLink exact activeClassName="active" to="/portfolio">
           Portfolio
         </NavLink>
+        <NavLink exact activeClassName="active" to="/resume">
+          Resume
+        </NavLink>
         <NavLink exact activeClassName="active" to="/contact">
           Contact
         </NavLink>

@@ -4,6 +4,7 @@ import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import Resume from "./Resume";
 
 export default function Main() {
   return (
@@ -13,6 +14,7 @@ export default function Main() {
         <Route exact path="/about" component={AboutMe} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/resume" component={Resume} />
       </Switch>
     </div>
   );
