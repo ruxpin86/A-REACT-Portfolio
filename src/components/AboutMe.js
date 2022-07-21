@@ -8,7 +8,7 @@ export default function AboutMe() {
       <main>
         <h2>A little about me...</h2>
         <section>
-          <img src={Image} />
+          <img className="headshot" src={Image} />
           <div>
             <h4 className="smooth">"Smooth Brain Boy"</h4>
             <p>

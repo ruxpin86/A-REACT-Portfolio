@@ -1,4 +1,5 @@
 import React from "react";
+import useMediaQuery from "../lib/useMediaQuery";
 import aimImage from "./images/almost-faimous.png";
 import eventListerImg from "./images/event-listener-main.png";
 import codeTeam from "./images/code-team.png";
@@ -32,18 +33,20 @@ const data = [
 
 const PortfolioItem = (props) => {
   const { title, description, demo_link, img, github_link } = props.data;
+  const isMobile = useMediaQuery("max-width: 902px");
   return (
     <div className="portfolio-item">
       <div className="portfolio-row">
         <div className="portfolio-text">
           <h3>{title}</h3>
+          {isMobile && <img className="portfolio-pic" src={img} />}
           <p>{description}</p>
           <a href={github_link}>
             <Github size={35} />
           </a>
           <a href={demo_link}>Demo</a>
         </div>
-        <img className="faimous" src={img} />
+        {!isMobile && <img className="portfolio-pic" src={img} />}
       </div>
     </div>
   );

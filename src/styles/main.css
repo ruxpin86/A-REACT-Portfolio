@@ -73,11 +73,26 @@ section{
     padding: 2rem;
 }
 
-img {
+.headshot {
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
     padding: 2rem;
+}
+
+.denver{
+    width: 100%;
+    border-radius: none;
+}
+
+.portfolio-pic{
+    width: 300px;
+    height: 200px;
+    object-fit: scale-down;
+}
+
+h1{
+    color: var(--text);
 }
 
 h2 {
@@ -104,7 +119,7 @@ label {
 }
 
 footer{
-    border-top: 2px solid cornsilk;
+    border-top: 2px solid black;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -155,4 +170,12 @@ footer{
 
 .resume{
     color: var(--text);
+}
+
+
+@media screen and (min-width: 902px){
+    nav{
+        display: flex;
+        width: 100%;
+    }
 }
