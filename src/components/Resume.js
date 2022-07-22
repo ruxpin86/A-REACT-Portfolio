@@ -6,9 +6,9 @@ export default function Resume() {
       <br></br>
       <main>
         <h3 className="resume">Skills & Resume</h3>
-        <section>
+        <section className="skill-list">
           <h4>Front-End Proficiencies</h4>
-          <ul>
+          <ul className="skills">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -17,7 +17,7 @@ export default function Resume() {
             <li>Responsive Design</li>
           </ul>
           <h4>Back-End Proficiencies</h4>
-          <ul>
+          <ul className="skills">
             <li>Node</li>
             <li>MySql</li>
             <li>Sequelize</li>
