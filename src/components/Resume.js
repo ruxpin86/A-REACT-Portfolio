@@ -25,7 +25,7 @@ export default function Resume() {
             <li>MongoDB</li>
             <li>Mongooose</li>
             <li>REST</li>
-            <li>APIs</li>
+            hero<li>APIs</li>
           </ul>
         </section>
       </main>
