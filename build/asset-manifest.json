@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/A-REACT-Portfolio/static/css/main.92c52d30.css",
+    "main.js": "/A-REACT-Portfolio/static/js/main.7a33eba2.js",
+    "static/media/south-platte.jpg": "/A-REACT-Portfolio/static/media/south-platte.6e196a40c6da2154411a.jpg",
+    "static/media/almost-faimous.png": "/A-REACT-Portfolio/static/media/almost-faimous.8a9a29b39ffd232801b9.png",
+    "static/media/thumbnail.jpeg": "/A-REACT-Portfolio/static/media/thumbnail.441c0acaf29994d3f2b4.jpeg",
+    "static/media/code-team.png": "/A-REACT-Portfolio/static/media/code-team.d8679b610fcb6e31dd6c.png",
+    "static/media/event-listener-main.png": "/A-REACT-Portfolio/static/media/event-listener-main.b33e4d3c43ba3d67e117.png",
+    "index.html": "/A-REACT-Portfolio/index.html",
+    "main.92c52d30.css.map": "/A-REACT-Portfolio/static/css/main.92c52d30.css.map",
+    "main.7a33eba2.js.map": "/A-REACT-Portfolio/static/js/main.7a33eba2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92c52d30.css",
+    "static/js/main.7a33eba2.js"
+  ]
+}
