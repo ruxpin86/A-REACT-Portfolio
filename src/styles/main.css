@@ -1,0 +1,182 @@
+:root{
+    --text: cornsilk;
+    --background2: rgb(30,30,30);
+    --background3: rgb(77,77,77);
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        box-sizing: border-box;
+        /* border: 1px solid rgb(100,100,100,.15); */
+    }
+    
+    a{
+        color: inherit;
+        text-decoration: none;
+        width: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        transition: .5s;
+    }
+    
+    a:hover {
+        color: cornsilk;
+    }
+    
+    html,body{
+        background-color: var(--background2);
+    }
+    
+    .active {
+        color: var(--background2) !important;
+    }
+    
+    nav {
+        display: flex;
+        width: 100%;
+        padding: .5rem;
+        justify-content: space-between;
+        background-color: var(--background3);
+        border-bottom: 2px solid cornsilk;
+    }
+    
+    .navlinks{
+        display: flex;
+        align-items: center;
+    }
+    
+    .navlinks > * {
+        background-color: var(--background3);
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: var(--text);
+        padding: .25rem .5rem;
+        margin-left: .5rem;
+        border-radius: .25rem;
+        border-right: 1px solid cornsilk;
+        transition: .3s;
+    }
+    
+    .navlinks > *:hover,.active{
+        color: var(--text);
+        background-color: grey;
+        border-right: 7px solid cornsilk;
+    }
+    
+    section{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 2rem;
+        padding: 2rem;
+    }
+    
+    .headshot {
+        height: 15rem;
+        width: 15rem;
+        border-radius: 50%;
+        padding: 2rem;
+    }
+    
+    .denver{
+        width: 100%;
+        border-radius: none;
+    }
+    
+    .portfolio-pic{
+        width: 300px;
+        height: 200px;
+        object-fit: scale-down;
+    }
+    
+    h1{
+        color: var(--text);
+    }
+    
+    h2 {
+        color: var(--text);
+        margin: 2em;
+    }
+    
+    h4 {
+        color: var(--text);
+    }
+    
+    p{
+        color: var(--text);
+    }
+    
+    .contactEl{
+        display: flex;
+        flex-direction: column;
+        margin: 10rem;
+    }
+    
+    label {
+        color: var(--text);
+    }
+    
+    footer{
+        border-top: 3px solid black;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: var(--background3);
+        display: flex;
+        justify-content: center;
+        padding-top: .25rem;
+        padding-bottom: .25rem;
+    }
+    
+    .icon{
+        width: 40px !important;
+    }
+    
+    .faimous{
+        border-radius: 10px;
+    }
+    .portfolio-item{
+        border: solid 1px cornsilk;
+        padding: 1rem;;
+        margin: 1rem;
+        margin-bottom: 50px;
+        background-color: var(--background3);
+    }
+    
+    .portfolio-row{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .portfolio-text{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .portfolio-text a{
+        width: max-content;
+    }
+    
+    .submit{
+        transition: .3s;
+        width: fit-content;
+        border-radius: 3px;
+    }
+    
+    .submit:hover{
+        background-color: var(--background3);
+    }
+    
+    .resume{
+        color: var(--text);
+        padding-left: 2rem;
+    }
+    
+    .skill-list{
+        display: flex;
+        flex-direction: column;
+        color: var(--text);
+    }
