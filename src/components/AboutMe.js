@@ -12,20 +12,12 @@ export default function AboutMe() {
           <div>
             <h4 className="smooth">"Smooth Brain Boy"</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              quae saepe, itaque fugiat, consequatur voluptas, sint iste maxime
-              eligendi ut placeat libero officiis tempore nostrum numquam quod
-              quo mollitia officia?Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Neque quae saepe, itaque fugiat, consequatur
-              voluptas, sint iste maxime eligendi ut placeat libero officiis
-              tempore nostrum numquam quod quo mollitia officia?Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Neque quae saepe,
-              itaque fugiat, consequatur voluptas, sint iste maxime eligendi ut
-              placeat libero officiis tempore nostrum numquam quod quo mollitia
-              officia?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Neque quae saepe, itaque fugiat, consequatur voluptas, sint iste
-              maxime eligendi ut placeat libero officiis tempore nostrum numquam
-              quod quo mollitia officia?
+              I am a recently graduated student of Univeristy of Denver's Full
+              Stack Coding Boot Camp. Over the past three months I have immersed
+              myself in learning to be able to begin a career in tech. I am
+              extrememly excited to learn more about front end technologies like
+              GSAP, spline, and three.js to better flesh out my skills in
+              creating responsive and engaging web apps.
             </p>
           </div>
           <div></div>

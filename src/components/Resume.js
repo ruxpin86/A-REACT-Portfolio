@@ -15,6 +15,7 @@ export default function Resume() {
             <li>React</li>
             <li>Bootstrap</li>
             <li>Responsive Design</li>
+            <li>Socket.io</li>
           </ul>
           <h4>Back-End Proficiencies</h4>
           <ul className="skills">
